@@ -1,0 +1,10 @@
+Sub PageTitle()
+'
+' PageTitle Macro
+'
+'
+    Selection.Font.Name = "Times New Roman"
+    Selection.Font.Size = 24
+    Selection.Font.Italic = True
+    Selection.ParagraphFormat.Alignment = wdAlignParagraphCenter
+End Sub
