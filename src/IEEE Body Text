@@ -1,7 +1,20 @@
-Sub Macro1()
+Sub BodyMacro()
 '
-' Macro1 Macro
+' Author: Justin Skubic
+' Body Macro
+' 4/12/2016
 '
+' ---Macro Contents---
+' Font: Times New Roman
+' Columns: 1: 3.5", 0.24"
+'          2: 3.5"
+' Spacing: 0, 0
+'          0, 6
+' Margins: .75, 1
+'          .63, .63
+' Reference > Bib: Chicago
+' Paragraph Spacing: Custum, alignment Left
+' Text Alignment: Justify
 '
     Selection.Font.Name = "Times New Roman"
     Selection.Font.Size = 10
@@ -141,6 +154,6 @@ Sub Macro1()
         .EvenlySpaced = True
         .LineBetween = False
         .Width = InchesToPoints(3.5)
-        .Spacing = InchesToPoints(0.25)
+        .Spacing = InchesToPoints(0.24)
     End With
 End Sub
